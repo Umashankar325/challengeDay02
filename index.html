@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="head">
+        <h2>Checkout</h2>
+        <h2>Total:$50.00</h2>
+      </div>
+      <div class="main">
+        <div class="left">
+          <h3>Payment Option</h3>
+          <div class="images">
+            <div class="leftimg">
+              <img src="/img/paypal.png" alt="" />
+            </div>
+
+            <div class="righttimg">
+               <img src="/img/visa.png" alt="" />
+              <img src="/img/mastercard.png" alt="" />
+
+              <img src="/img/american.svg" alt="" />
+              <img src="/img/discover.png" alt="" /> 
+            </div>
+          </div>
+          <h3>Card Number</h3>
+          <input type="text" />
+          <h3>Cardholder Name</h3>
+          <input type="text" />
+          <div class="card">
+            <div class="heading">
+              <h3>Expiration Date</h3>
+              <h3 id="cvv">CVV Code</h3>
+            </div>
+            <div class="cardinput">
+              <select name="months" id="months">
+                <option value="months">months</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+              </select>
+              <input type="number" min="2024" max="2050" placeholder="2024" />
+              <input type="password" />
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="right">
+        
+          <div class="top">
+            <h3>Order</h3>
+            <h3>PAYMENT</h3>
+            <h3>SHIPPING</h3>
+            <h3>CONFORMATION</h3>
+          </div>
+          <button>NEXT</button>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
